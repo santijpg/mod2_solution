@@ -1,0 +1,83 @@
+/********** Base styles **********/
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    text-align: center;
+}
+
+
+p{
+    font-size: 16px;
+    padding: 2%;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.row{
+    width: 100%;
+}
+
+.divSection {
+    border: 1px solid black;
+    background-color: gray;
+    margin: 5px;
+}
+
+.menuOptionBox {
+    font-size: 20px;
+    width: 100px;
+    text-align: center;
+    float: right;
+    top: -16px;
+    position: relative;
+    font-weight: bold;
+    border: 1px solid black;
+}
+.menuOptionChicken {
+    background-color: pink;
+}
+
+.menuOptionBeef {
+    background-color: red;
+    color: white;
+}
+
+.menuOptionSushi {
+    background-color: moccasin;
+}
+/********** Large Screens styles **********/
+@media (min-width: 992px) {
+
+    .col-lg-4 {
+        float: left;
+        width: 33.33%;
+        margin-top: 5px;
+    }
+
+}
+/********** Medium Screens styles **********/
+@media (min-width: 768px) and (max-width: 991px) {
+
+    .col-md-6, .col-md-12 {
+        float: left;
+    }
+
+    .col-md-6 {
+        width: 50%;
+    }
+
+    .col-md-12 {
+        width: 100%;
+    }
+}
+
+/********** Small Screens styles **********/
+@media (max-width: 767px) {
+
+    .col-sm-12 {
+    float: left;
+    width: 100%;
+    }
+}
